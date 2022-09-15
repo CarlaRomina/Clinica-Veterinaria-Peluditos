@@ -82,13 +82,19 @@ nav a{
 
 .formulario-adopcion{
     
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 20px 20px;/*espacio interno (a lo alto y a los costados respectivamente)*/
     width: 80%;
     margin: auto;
   
     
 }
+.formulario-adopcion p{
+    line-height:1.5;
+
+}
+
+
 
 .encabezado-formulario{
     font-weight: bold;
@@ -107,6 +113,7 @@ nav a{
 
 .solicitudTurno{
     margin:10px 0 20px 30px;
+    
 }
 
 
@@ -164,9 +171,9 @@ a{
 
 #bg-c{
 
-    background-image: url(../img/perritos.jpg);
+    background-image: url(../img/animalitos.png);
     opacity: 0.85;
-    background-size: 65%;
+    background-size: 45%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:bottom ;
@@ -324,7 +331,7 @@ a{
 
     background-image: url(../img/perrito-patita.png);
     opacity: 0.85;
-    background-size: 35%;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:bottom ;
@@ -380,9 +387,10 @@ a{
 }
 
 .imgTexto{
-    width: 350px;
+    width: 300px;
     float:left;
-    margin:0 20px 20px 0;
+    padding: 0 15px 0 ;
+   
     
     
 }
@@ -429,7 +437,7 @@ a{
 
     background-image: url(../img/perritos-festejo.png);
     opacity: 0.85;
-    background-size:55%;
+    background-size:48%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:bottom ;
@@ -442,7 +450,7 @@ a{
     background:linear-gradient(#fefefe, rgb(240, 191, 240));
 }
 
-}
+
 
 
 
