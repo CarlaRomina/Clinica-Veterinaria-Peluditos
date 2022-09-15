@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    margin:0;/*se quitan los margenes que vienen por defecto en el navegador*/
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif; /*tipo de fuente para todos los contenidos del body*/
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+a{
+    /*le saca el hipervinculo a la paginas*/
+    text-decoration: none;
+}
+
+header{
+    /*Pone toda la info en horizontal*/
+    display: flex;
+    /* background-image: url(../img/gatito.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: center; */
+   
+    background-color:rgb(254, 220, 255);
+    justify-content: space-between;
+    color:blueviolet;
+    
+
+    /*centraliza los titulos tanto izquierdo como derecho*/
+    align-items: center;
+
+    /*Separa las palabritas de la izquierda*/
+    padding: 30px;
+   
+    
+}
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+    
+}
+
+.nav{
+    display: inline-flex; /*sirve para que los elementos sean flexibles y se adapten a un espacio asignado*/
+    justify-content: space-between; /*lleva los contenido diferentes (por un lado el logo y por el otro el menú) hacia lados opuestos (derecha e izquierda)*/
+    }
+
+.nav-link{/*para darle el mismo formato a todos los links que aparecen dentro del menu*/
+    color: white; /*color de la fuente*/
+    text-decoration: none; /*le saca el subrayado que traen por defecto los links*/
+    
+}
+
+.nav-menu{
+    display: flex; /*para que los elementos del menu queden dispersos dentro del espacio asignado*/
+    margin-right: 40px; /*para que quede separado del borde de la pantalla del lado derecho*/
+    list-style: none; /*para que se eliminen los circulitos propios de las listas*/
+}
+
+.nav-menu-item{
+    font-size: 18px; /*tamaño de fuente de los diferentes items*/
+    margin: 0 10px; /*separacion de 10px hacia los costados de los diferentes items del menú*/
+    line-height: 80px; /*hace que las palabras del menú se centren al hacer coincidir el alto de la barra con el de cada item*/
+    text-transform: uppercase; /*para pasar a mayuscula las palabras*/
+    width: max-content; /*sirve para que si se cambia el ancho de la pantalla no se corten las frases contenidas dentro de cada uno de los items del menu*/
+    
+}
+
+.nav-menu-link{
+    padding: 30px 10px; /*espacio interno que se van a pintar (a lo alto y a los costados respectivamente)*/
+    border-radius: 3px; /*borde levemente redondeado en las puntas */
+}
+
+.nav-menu-link:hover{ /*efecto que aparece cuando paso el mouse por encima de la palabra*/
+    background-color: #cb6ce6; /*el fondo cambia de color*/
+    transition: 0.5s; /*para que no sea brusco el cambio se le pone una transicion de medio segundo*/
+}
+
+
+.formulario-adopcion{
+    
+    font-family: sans-serif;
+    padding: 20px 20px;/*espacio interno (a lo alto y a los costados respectivamente)*/
+    width: 80%;
+    margin: auto;
+  
+    
+}
+
+.encabezado-formulario{
+    font-weight: bold;
+    color: #cb6ce6;
+    font-size: 18px;
+    
+}
+
+
+.logo {
+    height: 200px;
+
+    /*Separa el logo de la palabra a la derecha arriba*/
+    margin-right: 10px;
+}
+
+.solicitudTurno{
+    margin:10px 0 20px 30px;
+}
+
+
+.cuadro{
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color:rgb(254, 220, 255);
+    border: 2px solid   blueviolet;
+    
+}
+
+
+
+
+h2{
+    padding: 10px 10px;/*espacio interno (a lo alto y a los costados respectivamente)*/
+    color: #8c52ff;/*color de la fuente*/
+    }
+
+h3{
+    padding: 5px 5px;/*espacio interno (a lo alto y a los costados respectivamente)*/
+    color: #cb6ce6;/*color de la fuente*/ 
+    text-decoration: underline;
+    
+}
+
+
+
+a{
+    /*le saca el hipervinculo a la paginas*/
+    text-decoration: none;
+}
+
+/* turnos header */
+
+#bg-t{
+
+    background-image: url(../img/gatito.png);
+    opacity: 0.85;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom ;
+    background-color:#e5d2cb ;
+    font-size: 1.1em;
+    
+    
+}
+
+/* Contacto */
+
+
+
+#bg-c{
+
+    background-image: url(../img/perritos.jpg);
+    opacity: 0.85;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom ;
+    background-color:#e5d2cb ;
+    font-size: 1.1em;
+    
+    
+}
+
+.form-contacto{
+   
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 100%;
+   
+
+}
+
+.fieldset {
+    width: 40%;
+    padding: 15px;
+    margin-bottom:15px;
+    
+    
+   
+}
+.inputPadron{
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px 25px;
+    width: 40%;
+    
+   
+    
+}
+
+
+
+.btnEnviar{
+    width: 40%;
+    margin-top:20px;
+    padding:10px 0;
+    font-size: 18px;
+    border: none;
+    color:white;
+    background:violet;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom:40px;
+
+}
+
+.btnEnviar:hover{
+    background:darkviolet;
+    transform:scale(1.1);
+}
+
+.tit{
+    text-align: center;
+    padding-top: 10px;
+    font-size:2.5em;
+    color: darkviolet;
+    text-decoration: none;
+    
+}
+
+.tit2{
+    text-align: center;
+    padding-top: 10px;
+    font-size:2em;
+    color: darkviolet;
+    text-decoration: none;
+    
+}
+
+.subTit{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#mainContacto{
+    background-image: url(../img/perrito-anteojos.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-position-y:100% ;
+   
+    
+    
+}
+
+/* footer */
+
+.pie-pag{
+    width: 100%;
+    background-color:#decfcb ;
+   
+}
+
+.pie-pag .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding-top: 50px;
+    
+}
+
+.pie-pag .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.pie-pag .grupo1 .box figure img{
+    width: 250px;
+    
+    
+}
+
+.pie-pag .grupo1 .red-social a{
+    display:inline-block;
+   
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    color: rgb(151, 23, 151);
+    background-color: rgb(240, 191, 240);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pag .grupo1 .red-social a:hover{
+    color:darkviolet;
+}
+
+.pie-pag .grupo2{
+    padding: 15px 10px;
+    text-align: center;
+
+}
+
+/* home */
+
+#bg-h{
+
+    background-image: url(../img/perrito-patita.png);
+    opacity: 0.85;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom ;
+    background-color:#e5d2cb ;
+    font-size: 1.1em;
+    
+    
+}
+
+#banner{
+
+    width:100%;
+}
+
+.ul{
+    display:inline-block;
+    justify-content: center;
+    vertical-align:top;
+    margin-top: 2em;
+
+}
+
+.li{
+    font-style: italic;
+    line-height:1.5;
+    
+}
+
+.servicios{
+    background:rgb(240, 191, 240);
+    padding: 2em 0;
+}
+
+.principal{
+    background: #fefefe;
+    margin-top: 10px;
+    padding: 20px 100px 20px 100px;
+   
+    
+}
+
+.foto{
+    width: 50%;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px  black;
+    margin-top: 2em;
+   
+}
+
+.foto:hover{
+    opacity: 0.5;
+    transition: 400ms;
+}
+
+.imgTexto{
+    width: 350px;
+    float:left;
+    margin:0 20px 20px 0;
+    
+    
+}
+
+.map{
+    margin-top: 20px;
+    padding: 3em 0;
+}
+
+.contenidoServicios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin:0 0 1em;
+}
+
+
+.map{
+    background:linear-gradient(#fefefe, rgb(240, 191, 240));
+}
+
+.map p{
+    text-align:center;
+    margin-bottom:2em;
+  
+}
+
+.map iframe{
+    margin-left: 180px;
+   
+   
+}
+
+.video{
+    margin-left: 400px;
+    margin-top: 2em;
+}
+
+/* adopciones header / formulario*/
+
+#bg-a{
+
+    background-image: url(../img/perritos-festejo.png);
+    opacity: 0.85;
+    background-size:55%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom ;
+    background-color:#e5d2cb ;
+    font-size: 1.1em;
+    
+}
+
+.sectionAdopciones{
+    background:linear-gradient(#fefefe, rgb(240, 191, 240));
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

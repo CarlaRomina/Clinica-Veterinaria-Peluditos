@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favi.ico">
+    <script src="https://kit.fontawesome.com/f1beb62344.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Adopciones</title>
+</head>
+<body>
+    <header id="bg-a">
+        <div>
+            <a href="../index.html">  
+                <img src="../img/logo1.png " class="logo">
+            </a> 
+            <h2>  VETERINARIA PILOT</h2>
+        </div>
+
+     <nav>
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="servicios.html" class="nav-link">Servicios</a>
+            <a href="turnos.html" class="nav-link"> Turnos</a>
+            <a href="productos.html" class="nav-link"> Productos</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+            <a href="adopciones.html" class="nav-link"> Adopciones</a>
+            
+        </nav>
+    </header>
+
+    <section class="sectionAdopciones">
+        <article class="formulario-adopcion">
+            <H2 class="tit">¿Te gustaria adoptar un Peludito?</H2>
+            <p>En Veterinaria Peluditos apostamos por la adopción y colaboramos junto con diferentes rescatistas para difundir aquellos "Peluamigos" que siguen a la espera del amor de una familia. Si estas interesado en sumar un nuevo integrante a tu familia, por favor, completa el siguiente formulario para ponernos en contacto con vos y que podamos ayudarte a elegir a tu compañero ideal en base a tu información. </p>
+            <p>Recorda que es requisito fundamental la tenencia responsable y el compromiso a castración. Si todos colaboramos podremos lograr que muchas vidas dejen de sufrir a diario en las calles <b>¿Contamos con vos?</b> </p>
+            <br>
+            <h3>Formulario de adopción:</h3>
+            <br>
+            <form action="">
+                 <fieldset>
+                     <legend class="encabezado-formulario">Datos personales</legend>
+         
+                     <label for="nombre">Nombre: </label>
+                     <input type="text" id="nombre" name="nombre" placeholder="Escribí tu nombre..." required>
+         
+                     <label for="apellido">Apellido: </label>
+                     <input type="text" id="apellido" name="apellido" placeholder="Escribí tu apellido..." required>
+         
+                     <label for="DNI">DNI: </label>
+                     <input type="number" placeholder="Escribí tu DNI..." required>
+     
+                     <label for="Edad">Edad: </label>
+                     <input type="number" placeholder="Escribí tu edad..." required>
+                     <br><br>
+                     
+                     <label for="Telefono">Nro de Celular/Teléfono: </label>
+                     <input type="number" placeholder="Escribí tu Numero..." required>
+     
+                     <label for="Mail">Correo electrónico: </label>
+                     <input type="email" placeholder="Escribí tu email..." required>
+                 </fieldset>
+                 
+                 <br>
+                 
+                 <fieldset>
+                     <legend class="encabezado-formulario">Datos de la vivienda</legend>
+                     <label for="direccion">Direccion: </label>
+                     <input type="text"  placeholder="Escribí tu dirección completa..." required>
+     
+                     <label for="localidad">Localidad: </label>
+                     <input type="text"  placeholder="Escribí tu localidad..." required>
+                     
+                     <label for="tipo">Seleccioná tu tipo de vivienda:</label>
+                     <select>
+                         <option value="1">Casa</option>
+                         <option value="2">Departamento</option>
+                         </select>
+                     <br><br>
+                     <label for="rb">¿Condición frente al inmueble?</label>
+                     <input type="radio" name="rb" value="1"> Propietario
+                     <input type="radio" name="rb" value="2"> Inquilino
+                     &nbsp &nbsp &nbsp
+                     <label for="rb">Si sos inquilino, ¿consultaste con el propietario si puede tener mascotas?</label>
+                     <input type="radio" name="rb" value="1"> SI
+                     <input type="radio" name="rb" value="2"> NO
+                     <input type="radio" name="rb" value="3"> No aplica
+                     <br><br>
+                     <label for="rb">¿La vivienda cuenta con protección para las ventanas?</label>
+                     <select>
+                         <option value="1">Si, tengo redes.</option>
+                         <option value="2">Si, tengo rejas. </option>
+                         <option value="3">No, pero me comprometo a colocarla.</option>
+                         <option value="4">No, y no está en mis planes colocarla. </option>
+                         </select>
+                     <br><br>
+                     <label for="rb">¿Vivis con otras personas?</label>
+                     <input type="radio" name="rb" value="1"> SI
+                     <input type="radio" name="rb" value="2"> NO
+                     <br>
+                     <label for="comentarios vivienda1">¿Con quién? ¿Podrías contarnos sus edades?</label>
+                     <textarea cols="60" rows="1" placeholder="Escriba su comentario"></textarea>
+                     <label for="comentarios vivienda2">¿Siempre hay alguien en la casa o el animal pasaría tiempo solo?</label>
+                     <textarea cols="60" rows="1" placeholder="Escriba su comentario"></textarea>
+                 </fieldset>
+                 
+                 <br>
+                 
+                 <fieldset>
+                     <legend class="encabezado-formulario">Mascota</legend>
+                 <label for="rb">¿Tuviste mascotas anteriormente?</label>
+                 <input type="radio" name="rb" value="1"> SI
+                 <input type="radio" name="rb" value="2"> NO
+                 <br><br>
+                 <label for="especie">¿Actualmente tenes otras mascotas? </label>
+                 <input type="checkbox" name="op" value="1"> Perro
+                 <input type="checkbox" name="op" value="2"> Gato
+                 <input type="checkbox" name="op" value="3"> Otro
+                 <br><br>
+                 <label for="Otro">Si seleccionaste "Otro", especificanos la especie por favor:</label>
+                 <textarea cols="40" rows="1" placeholder="Escribí tu comentario..."></textarea>
+                 <br><br>
+                 <label for="rb">Si tenes otros animales...</label>
+                 <select>
+                     <option value="1">Estan todos castrados </option>
+                     <option value="2">Algunos estan castrados </option>
+                     <option value="3">No estan castrados</option>
+                     <option value="4">No tengo otros animales </option>
+                     </select>
+                     <br><br>
+                 <label for="seleccion">¿Qué tipo de mascota te gustaría adoptar? </label>
+                 <input type="checkbox" name="op" value="1"> Perro
+                 <input type="checkbox" name="op" value="2"> Gato  
+                 <br><br>
+                 <label for="nombre seleccionado">¿Ya elegiste algun Peludito en nuestra pagina? Escribí su nombre en el recuadro por favor:</label>
+                 <textarea cols="40" rows="1" placeholder="Escribí el nombre del Peludito"></textarea>
+                 </fieldset>
+     
+                 <br><br>
+     
+                 <label for="rb"> La pregunta más importante, ¿te comprometes a adoptar un animalito de por vida, con sus correspondientes atenciones y cuidados, a vacunarlo anualmente, desparacitarlo y castrarlo?</label>
+                 <input type="radio" name="rb" value="1"> SI
+                 <input type="radio" name="rb" value="2"> NO
+                 <br><br>
+                 <label for="comentarios finales">¿Queres dejarnos algun otro comentario?</label><br>
+                 <textarea cols="40" rows="5" placeholder="Escribí tu comentario..."></textarea>
+                 <br><br>
+                 <input type="submit" value="Enviar datos">
+                 <input type="reset" value="Borrar datos">
+         
+                
+                 
+            </form>
+        </article>
+        <article></article>
+    </section>
+
+    <footer class="pie-pag">
+        <div class="grupo1">
+        <div class="box">
+            <figure class="logoFooter">
+                <a href="#">
+                    <img src="../img/ilustracion-vet.png" alt="logo vet">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="box">
+            <h2>SEGUINOS EN NUESTRAS REDES</h2>
+            <div class="red-social">
+                <a href="#"class="fa-brands fa-facebook"></a>
+                <a href="#"class="fa-brands fa-instagram"></a>
+                <a href="#"class="fa-brands fa-whatsapp"></a>
+            </div>
+        </div>
+    </div> 
+    <div class="grupo2">
+        <small>&copy; 2022 <b>Veterinaria Peluditos</b>  - Todos los derechos reservados</small>
+    </div>  
+       
+    </footer>  
+</body>
+
+</html>

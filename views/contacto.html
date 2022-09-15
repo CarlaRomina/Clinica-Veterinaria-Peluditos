@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favi.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/f1beb62344.js" crossorigin="anonymous"></script>
+
+    <title>Contacto</title>
+</head>
+<body >
+    <header id="bg-c">
+        <div >
+            <a href="../index.html">  
+                <img src="../img/ilustracion-vet.png " class="logo">
+            </a> 
+            
+            
+        </div>
+
+     <nav >
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="servicios.html" class="nav-link">Servicios</a>
+            <a href="turnos.html" class="nav-link"> Turnos</a>
+            <a href="productos.html" class="nav-link"> Productos</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+            <a href="adopciones.html" class="nav-link"> Adopciones</a>
+            
+        </nav>
+    </header>
+    <main id="mainContacto">
+        <div>
+            <h1 class="tit">¿Ténes alguna duda?</h1>
+            <br>
+            <p class="subTit">Comunicate con nosotros y te responderemos a la brevedad.</p>
+        </div>
+        <form class="form-contacto">
+            <label for="nya"class="encabezado-formulario">Nombre y Apellido</label>
+            <input type="text" id="nya" class="inputPadron" required>
+
+            <label for="mail"class="encabezado-formulario">Mail</label>
+            <input type="text" id="mail" class="inputPadron" required placeholder="email@dominio.com">
+
+            <label for="tel" class="encabezado-formulario">Teléfono</label>
+            <input type="text" id="tel" class="inputPadron" placeholder="1155986334">
+
+            <label for="mensaje"class="encabezado-formulario">Mensaje</label>
+            <textarea id="mensaje" class="inputPadron"cols="70" rows="10" placeholder="Hola..."></textarea>
+
+          <fieldset class="fieldset">
+                <legend class="encabezado-formulario"> ¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radioMail"><input type="radio"  name="contacto" value="mail"id="radioW">Mail</label>
+    
+                <label for="radioTel"><input type="radio"  name="contacto" value="mail"id="radioTel">Teléfono</label>
+                
+                <label for="radioW"><input type="radio"  name="contacto" value="mail"id="radioW" checked>WhatApps</label>
+                
+            </fieldset>
+            
+            <fieldset class="fieldset">
+               <legend class="encabezado-formulario"> ¿En qué horario prefiere ser contactado?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+
+            </fieldset>
+
+           <label class="checkbox">Le gustaría recibir novedades de la Veterinaria
+                <input type="checkbox"checked>
+            </label>
+            <br>
+            <input type="submit" value="Enviar formulario"class="btnEnviar">
+        
+         </form>
+
+       
+    </main>
+    <footer class="pie-pag">
+        <div class="grupo1">
+        <div class="box">
+            <figure class="logoFooter">
+                <a href="#">
+                    <img src="../img/ilustracion-vet.png" alt="logo vet">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="box">
+            <h2>SEGUINOS EN NUESTRAS REDES</h2>
+            <div class="red-social">
+                <a href="#"class="fa-brands fa-facebook"></a>
+                <a href="#"class="fa-brands fa-instagram"></a>
+                <a href="#"class="fa-brands fa-whatsapp"></a>
+            </div>
+        </div>
+    </div> 
+    <div class="grupo2">
+        <small>&copy; 2022 <b>Veterinaria Peluditos</b>  - Todos los derechos reservados</small>
+    </div>  
+       
+    </footer>  
+
+    
+    
+</body>
+</html>
