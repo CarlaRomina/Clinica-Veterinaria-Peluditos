@@ -7,28 +7,32 @@
     <link rel="shortcut icon" href="../img/favi.ico">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/f1beb62344.js" crossorigin="anonymous"></script>
-
     <title>Contacto</title>
 </head>
 <body >
     <header id="bg-c">
-        <div >
+        <div>
             <a href="../index.html">  
-                <img src="../img/ilustracion-vet.png " class="logo">
+                <img src="../img/logo1.png " class="logo">
             </a> 
-            
-            
+           
+        </div>
+        <div class="respmenu">
+            <input type="checkbox">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav>
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="servicios.html" class="nav-link">Servicios</a>
+                <a href="turnos.html" class="nav-link"> Turnos</a>
+                <a href="productos.html" class="nav-link"> Productos</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+                <a href="adopciones.html" class="nav-link"> Adopciones</a>
+                
+            </nav>
         </div>
 
-     <nav >
-            <a href="../index.html" class="nav-link">Home</a>
-            <a href="servicios.html" class="nav-link">Servicios</a>
-            <a href="turnos.html" class="nav-link"> Turnos</a>
-            <a href="productos.html" class="nav-link"> Productos</a>
-            <a href="contacto.html" class="nav-link">Contacto</a>
-            <a href="adopciones.html" class="nav-link"> Adopciones</a>
-            
-        </nav>
+       
     </header>
     <main id="mainContacto">
         <div>
@@ -36,7 +40,8 @@
             <br>
             <p class="subTit">Comunicate con nosotros y te responderemos a la brevedad.</p>
         </div>
-        <form class="form-contacto">
+        <div class="form-contacto">
+        <form nane="fValida">
             <label for="nya"class="encabezado-formulario">Nombre y Apellido</label>
             <input type="text" id="nya" class="inputPadron" required>
 
@@ -77,6 +82,7 @@
             <input type="submit" value="Enviar formulario"class="btnEnviar">
         
          </form>
+        </div>
 
        
     </main>
