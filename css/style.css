@@ -491,9 +491,57 @@ a{
     height: 500%;
     color:#fefefe;
     margin: 30px;
-    display inset-block:;
+    display inset-block: ;
 
 }
+ 
+
+#servicios{
+    background-color: rgb(245, 204, 238);
+    }
+    #servicios .container{
+    text-align: center;
+    padding: 50px 0px;
+    
+    }
+    
+    #servicios p{
+        display: flex;
+    }
+    #servicios .carta{
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;
+    background-position: center center;
+    background-position-y: 0%;
+    border-style: double;
+    
+    }
+    
+    
+    #laboratorio{
+    background-color: rgb(240, 207, 230);
+    }
+    #laboratorio .container{
+        text-align: center;
+        padding: 50px 0px;
+        
+    }
+    #laboratorio p{
+    display: flex;
+    }
+    #laboratorio .caja{
+        background-size: cover;
+        padding: 60px;
+        margin: 12px;
+        border-radius: 15px;
+        background-position: center center;
+        background-position-y: 0%;
+        border-style: double;
+    }
+
+
 
 
 
