@@ -125,8 +125,6 @@ nav a{
     background-color:rgb(254, 220, 255);
     border: 2px solid   blueviolet;
     
-   
-    
 }
 
 
@@ -163,7 +161,6 @@ a{
     background-position-y:bottom ;
     background-color:#e5d2cb ;
     font-size: 1.1em;
-    
     
     
 }
@@ -241,7 +238,6 @@ a{
     font-size:2.5em;
     color: darkviolet;
     text-decoration: none;
-    
     
 }
 
@@ -454,46 +450,8 @@ a{
     background:linear-gradient(#fefefe, rgb(240, 191, 240));
 }
 
-#fa-solid fa-pen-to-square{
-    font-weight: bold;
-    color: #cb6ce6;
-    font-size: 18px;
-}
-
-#bg-s{
-
-    background-image:url(../img/animalitos.png);
-    opacity: 0.85;
-    background-size: 35%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y:bottom ;
-    background-color:#e5d2cb ;
-    font-size: 1.1em;
-     
-}
-
-.ServiciosVet{
-    width: 80%;
-    height: 200px;
-    margin: 50px;
-    display: flex;
-    padding: 50px;
- 
-}
 
 
-
-.Servicio{
-    background-color: #d094e0;
-
-    width: 500%;
-    height: 500%;
-    color:#fefefe;
-    margin: 30px;
-    display inset-block:;
-
-}
 
 
 
