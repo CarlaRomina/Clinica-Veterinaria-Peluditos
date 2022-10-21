@@ -469,9 +469,9 @@ a{
 
 #bg-s{
 
-    background-image:url(../img/animalitos.png);
+    background-image:url(../img/mascotas.png);
     opacity: 0.85;
-    background-size: 35%;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:bottom ;
@@ -511,6 +511,7 @@ a{
     border-radius: 15px;
     border-style: double;
     width: 25%;
+    padding: 30px;
     
 }
 
