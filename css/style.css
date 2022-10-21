@@ -463,37 +463,21 @@ a{
     background:linear-gradient(#fefefe, rgb(240, 191, 240));
 }
 
-<<<<<<< HEAD
 
 
-=======
-<<<<<<< HEAD
-/* Servicios */
 
-#bg-s{
-
-    background-image: url(../img/mascotas.png);
-    opacity: 0.85;
-    background-size:32%;
-=======
-#fa-solid fa-pen-to-square{
-    font-weight: bold;
-    color: #cb6ce6;
-    font-size: 18px;
-}
 
 #bg-s{
 
     background-image:url(../img/animalitos.png);
     opacity: 0.85;
     background-size: 35%;
->>>>>>> 221ab11622cca83681da7e236f0ed3329eee438e
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:bottom ;
     background-color:#e5d2cb ;
     font-size: 1.1em;
-<<<<<<< HEAD
+
     
 }
 
@@ -529,49 +513,6 @@ a{
     width: 25%;
     
 }
-
-
-    
-   
-
-
- @media (min-width: 720px){
-        
-        header .container{
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        header nav{
-            flex-direction: row;
-            padding-bottom: 0;
-            padding-right: 20px;
-    }
-    #consultas .container{
-        display: flex;
-        justify-content: center;
-    }
-    #consultas .carta{
-        padding: 50px;
-        background-size: 100% 150px;
-        background-repeat: no-repeat;
-        
-    }
-    #laboratorio .container{
-        display: flex;
-        justify-content: center;
-
-    }
-    #laboratorio .carta{
-        padding: 50px;
-        background-size: 100% 150px;
-        background-repeat: no-repeat;
-        background-position-y: 0%;
-    }
-    }
-
- 
-
-
 
 /* Media queries */
 /* mobile */
@@ -744,11 +685,7 @@ a{
 
     }
 
-   
-
-    
-
-    .map{
+   .map{
         padding-top:1em;
     }
     .map iframe{
@@ -896,39 +833,21 @@ a{
 
     }
     
-
-
-
-
-}
-=======
-     
 }
 
-.ServiciosVet{
-    width: 80%;
-    height: 200px;
-    margin: 50px;
-    display: flex;
-    padding: 50px;
- 
+@media only screen and (min-width: 1200px){
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times{
+        visibility: hidden;
+
+
+    }
+    
 }
+    
 
 
 
-.Servicio{
-    background-color: #d094e0;
-
-    width: 500%;
-    height: 500%;
-    color:#fefefe;
-    margin: 30px;
-    display inset-block: ;
-
-}
- 
-
-#servicios{
+/* #servicios{
     background-color: rgb(245, 204, 238);
     }
     #servicios .container{
@@ -972,25 +891,13 @@ a{
         background-position-y: 0%;
         border-style: double;
     }
->>>>>>> 221ab11622cca83681da7e236f0ed3329eee438e
->>>>>>> db319ea6cc269e29ba1ca352619ff3d3d6f47de0
 
 
 
 
-
-
-
-
-@media only screen and (min-width: 1200px){
-    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times{
-        visibility: hidden;
-
-
-    }
 
 }
-    
+     */
 
 
 
