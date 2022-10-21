@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/productos.css"> <!--Link con Css-->
+    <script src="https://kit.fontawesome.com/f1beb62344.js" crossorigin="anonymous"></script> <!--Habilita usar Logo changuito de compras-->
+    <link rel="shortcut icon" href="../img/favi.ico"> <!--favicon del logo-->
+    <title>Productos</title>
+</head>
+<body>
+    <header id="bg-p">
+        <div>
+            <a href="../index.html">  
+                <img src="../img/logo1.png " class="logo">
+            </a> 
+           
+        </div>
+        <div class="respmenu">
+            <input type="checkbox">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav>
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="servicios.html" class="nav-link">Servicios</a>
+                <a href="turnos.html" class="nav-link"> Turnos</a>
+                <a href="productos.html" class="nav-link"> Productos</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+                <a href="adopciones.html" class="nav-link"> Adopciones</a>
+                
+            </nav>
+        </div>
+
+       
+    </header>
+    
+    
+    <h1 class="tit">PRODUCTOS</h1>
+
+    <div class="ProductosVet">
+        
+        <div class="productos"><br><b style="color:#cb6ce6;">ALIMENTOS</b>
+            <br><br>
+            <img src="../img/productos - fotocomida.jpg" class="foto">
+            <br><br><br>
+            <p>Trabajamos con Royal Canin, Eucanuba y Excellent de Purina</p>
+            
+        </div>
+
+        <div class="productos"><br><b style="color:#cb6ce6;">PIPETAS</b>
+            <br><br>
+            <img src="../img/productos - pipetas.jpg" class="foto">
+            <br><br><br>
+            <p>Junto con Frontline te traemos la mejor protección contra pulgas y garrapatas</p>
+           
+        </div>
+
+        <div class="productos"><br><b style="color:#cb6ce6;">MANTAS</b>
+            <br><br>
+            <img src="../img/productos-mantas.JPG" class="foto">
+            <br><br><br>
+            <p>Junto con la asociación Peluditos te ofrecemos mantitas confeccionadas a mano por nuestros socios.
+                <br>
+                Tamaño chico: 60 cm x 70 cm
+                <br>
+                Tamaño grande: 70 cm x 100 cm</p>
+            
+        </div>
+
+        <div class="productos"><br><b style="color:#cb6ce6;">PIEDRAS SANITARIAS</b>
+            <br><br>
+            <img src="../img/productos - piedritas.JPG" class="foto">
+            <br><br><br>
+            <p>Bolsa Chica: 5 kg <br> Bolsa Mediana 10 Kg <br> Bolsa Grande 25 Kg
+            </p>
+           
+        </div>
+    </div>
+
+    <div class="ProductosVet2">
+        <div class="cuadro1"> 
+        
+            <fieldset>
+                <legend class="encabezado-formulario"> <i class="fa-solid fa-cart-shopping"></i> <b>Datos de la compra</b></legend> <!--Icono de changuito con i class-->
+                <br><br>
+                <label for="Nombre y Apellido">Nombre y Apellido: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre...">
+                <br><br>
+                <label for="rb">Tu peludito es...</label>
+                <input type="radio" name="rb" value="1"> Gat@ <i class="fa-solid fa-cat"></i>
+                <input type="radio" name="rb" value="2"> Perr@ <i class="fa-solid fa-dog"></i>
+                <br><br>
+                <label for="rb">¿Qué producto necesitas?</label>
+
+                <select>
+                    <option value="" disabled selected></option>
+                    <option value="1">Alimentos</option>
+                    <option value="2">Pipetas</option>
+                    <option value="3">Mantas</option>
+                    <option value="4">Piedritas sanitarias</option>
+                </select>
+                <br><br>
+                <label for="Unidades">Unidades: </label> 
+                <input type="Number" min="0" max="10">
+            
+        
+                <label for="Marca">Marca: </label>
+                <select>
+                    <option value="" disabled selected></option>
+                    <option value="1">Eucanuba</option>
+                    <option value="2">FrontLine</option>
+                    <option value="3">Purina</option>
+                    <option value="4">Royal Canin</option>
+                </select>
+        
+                <label for="Color">Color: </label>
+                <select>
+                    <option value="" disabled selected>Solo para mantitas</option> 
+                    <option value="1">Estampado en rosa</option>
+                    <option value="2">Estampado en gris</option>
+                    <option value="3">Estampado en beige</option>
+                </select>
+          
+        
+                <label for="Tamaño">Tamaño</label>
+                <select>
+                    <option value="" disabled selected></option>
+                    <option value="1">Pequeño</option>
+                    <option value="2">Mediano</option>
+                    <option value="3">Grande</option>
+                </select>
+                <br><br>
+                <label for="rb">Retiro en  
+                    <input type="radio" name="rb" value="1"> Sucursal
+                    <input type="radio" name="rb" value="2"> Domicilio
+                    <br><br>
+                    <label for="rb">Metodo de Pago</label>
+                    <input type="radio" name="rb" value="1"> Efectivo *
+                    <input type="radio" name="rb" value="2"> Tarjeta
+                    <br><br>
+                    <input type="submit" value="Enviar Datos">
+                    <input type="submit" value="Borrar datos">
+                    <br><br>
+                    <br><br>
+                    <p>* Pago en efectivo solamente con retiro en Sucursal</p>
+                </label>
+  
+            </fieldset>
+
+        </div>
+    
+
+        <div class="cuadro1">
+            <figure>
+             <img src="../img/productos - perrito con plata.JPG" class="foto2">
+            </figure>    
+
+        </div>
+
+    </div>
+
+
+
+    <footer class="pie-pag">
+        <div class="grupo1">
+            <div class="box">
+                <figure class="logoFooter">
+                    <a href="#">
+                        <img src="../img/ilustracion-vet.png" alt="logo vet">
+                    </a>
+                </figure>
+            </div>
+
+            <div class="box">
+                <h2>TRABAJAMOS CON TODAS LAS TARJETAS</h2>
+         
+            </div>
+
+            <div class="box">
+                <h2>¡ENVIOS GRATIS EN CABA!</h2>
+
+            </div>
+        </div> 
+
+        <div class="grupo2">
+            <small>&copy; 2022 <b>Veterinaria Peluditos</b>  - Todos los derechos reservados</small>
+        </div>  
+       
+    </footer>
+
+</body>
+</html>
