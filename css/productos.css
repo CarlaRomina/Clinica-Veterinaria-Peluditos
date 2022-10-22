@@ -494,6 +494,7 @@ a{
     border-image-width: auto;
     margin: 10px; /*Margen derecho*/
     flex-grow: 1;
+    border-radius: 10px;
     
 }
 
@@ -507,42 +508,46 @@ a{
 }
 
 
-.logo{
+/* .logo{
     width: 300px;
     
-}
+} */
 
 /*Papa 2*/
 .ProductosVet2{
     
-    margin: 100px;
-    display:inline-flex; /*Condición para trabajar con Flexbox*/
+    
+    display:inline-block; /*Condición para trabajar con Flexbox*/
     flex-wrap: wrap; /*Diseño responsive que manda los contenedores hijos para abajo*/
     flex-direction: row;
-    justify-content: space-between;/*Deja los items separados de igual forma entre ellos REVISAR SI ESTA TOMANDO ESTA MEDIDA*/
-    align-items:flex-start;
+    margin-bottom: 30%;
+    width:70%;
+    margin-left:200px
+    
+    /*Deja los items separados de igual forma entre ellos REVISAR SI ESTA TOMANDO ESTA MEDIDA*/
+    
     
 }
 
 /*Hijo de Papa 2*/
-.cuadro1{
-    
-    width: 800px; 
-    height: 450px;
-    flex-grow: 1;
-    
-    
-}
 
 
 
 .foto2{
     width: 400px;
-    height: 400px;
-    
     margin:auto;
 	display:block;
         
+}
+
+.mainProductos{
+   
+    background-image: url(../img/productos\ -\ perrito\ con\ plata.JPG);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y:bottom;
+    background-position-x:center;
+    
 }
 
 
@@ -555,7 +560,7 @@ a{
     }
 
     .logo{
-        height: 100px;
+        height:120px;
         
     }
 
@@ -566,27 +571,11 @@ a{
     }
     
   
-    
-    .form-contacto{
-       
-        margin: auto;
-        padding-left:15%;
-        width: 700px;
-    }
     .tit{
         font-size:2em;
         
     }
-    #mainContacto{
-        background-image: none;
-       
-    }
-    .checkbox{
-        font-size: 0.9em;
-        margin-left: -6%;
-        
-        
-    }
+    
     .pie-pag .grupo1 .box figure img{
         width: 120%;
         
@@ -664,25 +653,65 @@ a{
         
        
         
-      }
+    }
       
       .respmenu input:checked ~ .fa-bars {
         display: none;
-      }
+    }
       
       .respmenu input:not(:checked) ~ .fa-times {
         display: none;
-      }
+    }
+
+    .ProductosVet{
+        display:grid;
+        grid-template-columns: auto;
+        padding-bottom: 30px;
+        margin:10px;
+        
+        
+    }
+    .productos{
+        width: 100%;
+        margin-left: 0px;
+        padding: 15px;
+    }
+
+    
+
+    .ProductosVet2{
+        width: 94%;
+        margin: 0 auto;
+        margin-left: 10px;
+        padding: 15px;
+    }
+
+    .mainProductos{
+        background-image: none;
+    }
+
+
+
+    
+
+    
+
 
     
     
         
 }
 
-.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times{
-    visibility: hidden;
 
-}  
+
+@media only screen and (min-width: 1200px){
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times{
+        visibility: hidden;
+
+
+    }
+    
+}
 
 
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favi.ico">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../app.js"></script>
     <script src="https://kit.fontawesome.com/f1beb62344.js" crossorigin="anonymous"></script>
     <title>Contacto</title>
 </head>
@@ -41,20 +42,20 @@
             <p class="subTit">Comunicate con nosotros y te responderemos a la brevedad.</p>
         </div>
         <div class="form-contacto">
-        <form nane="fValida">
+            <form action="" id="formulario" onsubmit=" return validar();">
             <label for="nya"class="encabezado-formulario">Nombre y Apellido</label>
-            <input type="text" id="nya" class="inputPadron" required>
+            <input type="text" name="nya" id="nya" class="inputPadron" >
 
-            <label for="mail"class="encabezado-formulario">Mail</label>
-            <input type="text" id="mail" class="inputPadron" required placeholder="email@dominio.com">
+            <label for="mail"class="encabezado-formulario">Email</label>
+            <input type="text"  name="mail" id="mail" class="inputPadron"  placeholder="email@dominio.com">
 
             <label for="tel" class="encabezado-formulario">Teléfono</label>
-            <input type="text" id="tel" class="inputPadron" placeholder="1155986334">
+            <input type="text"name="tel"  id="tel" class="inputPadron" placeholder="1155986334">
 
             <label for="mensaje"class="encabezado-formulario">Mensaje</label>
             <textarea id="mensaje" class="inputPadron"cols="70" rows="10" placeholder="Hola..."></textarea>
 
-          <fieldset class="fieldset">
+            <fieldset class="fieldset">
                 <legend class="encabezado-formulario"> ¿Cómo le gustaría que lo contactemos?</legend>
 
                 <label for="radioMail"><input type="radio"  name="contacto" value="mail"id="radioW">Mail</label>
@@ -68,9 +69,10 @@
             <fieldset class="fieldset">
                <legend class="encabezado-formulario"> ¿En qué horario prefiere ser contactado?</legend>
                 <select>
-                    <option>Mañana</option>
-                    <option>Tarde</option>
-                    <option>Noche</option>
+                    
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
                 </select>
 
             </fieldset>
@@ -79,12 +81,12 @@
                 <input type="checkbox"checked>
             </label>
             <br>
-            <input type="submit" value="Enviar formulario"class="btnEnviar">
-        
+            
+            <input type="submit" id="b1" value="Enviar formulario"class="btnEnviar" > 
+            
          </form>
         </div>
 
-       
     </main>
     <footer class="pie-pag">
         <div class="grupo1">

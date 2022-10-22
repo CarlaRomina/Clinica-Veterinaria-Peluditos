@@ -616,8 +616,10 @@ a{
         text-decoration: none;
         display: block;
         text-shadow: 1px 1px black;
-        font-size:0.9em;
-        padding:10px;
+        font-size:0.8em;
+        line-height:1.em;
+        margin-left: 10px;
+       
         
 
        
@@ -654,6 +656,8 @@ a{
         right: 0;
         background-color:#cb6ce6;
         width: 120px;
+        
+       
         
        
         
@@ -844,64 +848,6 @@ a{
     }
     
 }
-    
-
-
-
-/* #servicios{
-    background-color: rgb(245, 204, 238);
-    }
-    #servicios .container{
-    text-align: center;
-    padding: 50px 0px;
-    
-    }
-    
-    #servicios p{
-        display: flex;
-    }
-    #servicios .carta{
-    background-size: cover;
-    padding: 50px;
-    margin: 12px;
-    border-radius: 15px;
-    background-position: center center;
-    background-position-y: 0%;
-    border-style: double;
-    
-    }
-    
-    
-    #laboratorio{
-    background-color: rgb(240, 207, 230);
-    }
-    #laboratorio .container{
-        text-align: center;
-        padding: 50px 0px;
-        
-    }
-    #laboratorio p{
-    display: flex;
-    }
-    #laboratorio .caja{
-        background-size: cover;
-        padding: 60px;
-        margin: 12px;
-        border-radius: 15px;
-        background-position: center center;
-        background-position-y: 0%;
-        border-style: double;
-    }
-
-
-
-
-
-}
-     */
-
-
-
     
 
 
