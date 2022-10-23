@@ -550,6 +550,33 @@ a{
     
 }
 
+/* ESTE CODIGO LE DA LAS MEDIDAS Y PROPIEDADES AL PERRO (INCLUYE TRANSICION) EN PAGINA "PRODUCTOS" */
+.foto2{
+    width: 400px;
+    height: 400px;
+    
+    margin:auto;
+	display:block;
+
+    margin-top: 100px;
+    width:50%;
+    transition: all 300ms;
+    position: relative;
+}
+
+
+/* ESTE CODIGO LE DA ESTILO AL CUADRITO DONDE SE MUESTRA LA API EN LA PAGINA "PRODUCTOS" */
+.cotizacion-css{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    box-shadow: 0 0 25px #a39e9e;
+    border-collapse: collapse;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
 
 @media only screen and (max-width: 375px){
 

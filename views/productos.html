@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/productos.css"> <!--Link con Css-->
+    <link rel="stylesheet" href="../css/style.css"> <!--Link con Css-->
+    <script src="../app.js"></script>
     <script src="https://kit.fontawesome.com/f1beb62344.js" crossorigin="anonymous"></script> <!--Habilita usar Logo changuito de compras-->
     <link rel="shortcut icon" href="../img/favi.ico"> <!--favicon del logo-->
     <title>Productos</title>
@@ -43,7 +44,7 @@
         
         <div class="productos"><br><b style="color:#cb6ce6;">ALIMENTOS</b>
             <br><br>
-            <img src="../img/productos - fotocomida.jpg" class="foto">
+            <img src="../img/productos - fotocomida.jpg" class="fotoSer">
             <br><br><br>
             <p>Trabajamos con Royal Canin, Eucanuba y Excellent de Purina</p>
             
@@ -51,7 +52,7 @@
 
         <div class="productos"><br><b style="color:#cb6ce6;">PIPETAS</b>
             <br><br>
-            <img src="../img/productos - pipetas.jpg" class="foto">
+            <img src="../img/productos - pipetas.jpg" class="fotoSer">
             <br><br><br>
             <p>Junto con Frontline te traemos la mejor protección contra pulgas y garrapatas</p>
            
@@ -59,7 +60,7 @@
 
         <div class="productos"><br><b style="color:#cb6ce6;">MANTAS</b>
             <br><br>
-            <img src="../img/productos-mantas.JPG" class="foto">
+            <img src="../img/productos-mantas.JPG" class="fotoSer">
             <br><br><br>
             <p>Junto con la asociación Peluditos te ofrecemos mantitas confeccionadas a mano por nuestros socios.
                 <br>
@@ -71,7 +72,7 @@
 
         <div class="productos"><br><b style="color:#cb6ce6;">PIEDRAS SANITARIAS</b>
             <br><br>
-            <img src="../img/productos - piedritas.JPG" class="foto">
+            <img src="../img/productos - piedritas.JPG" class="fotoSer">
             <br><br><br>
             <p>Bolsa Chica: 5 kg <br> Bolsa Mediana 10 Kg <br> Bolsa Grande 25 Kg
             </p>
@@ -139,13 +140,30 @@
                     <label for="rb">Metodo de Pago</label>
                     <input type="radio" name="rb2" value="1"> Efectivo *
                     <input type="radio" name="rb2" value="2"> Tarjeta
+                    <input type="radio" name="rb2" value="2"> Criptomonedas
                     <br><br>
-                    <input type="submit" value="Enviar Datos">
-                    <input type="submit" value="Borrar datos">
+                    <input type="submit" value="Enviar Datos"class="btnProductos" >
+                    <input type="submit" value="Borrar datos"class="btnProductos">
                     <br><br>
+                    <h4>Cotizaciones de criptomonedas</h4>
                     <br><br>
+
+                    <table class="cotizacion-css">
+                     <thead>
+                        <tr>
+                        <th>Símbolo</th>
+                        <th>Precio</th>
+                         </tr>
+                    </thead>
+                    <tbody id="data">
+                     </tbody>
+                    </table>
+                    <br><br>
+                    
                     <p>* Pago en efectivo solamente con retiro en Sucursal</p>
                 </label>
+
+                
   
             </fieldset>
 
