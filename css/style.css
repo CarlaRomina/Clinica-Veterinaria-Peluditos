@@ -85,24 +85,32 @@ nav a{
 .formulario-adopcion{
     
     font-family: 'Montserrat', sans-serif;
-    padding: 20px 20px;/*espacio interno (a lo alto y a los costados respectivamente)*/
-    width: 100%;
+     /*espacio interno (a lo alto y a los costados respectivamente)*/
+    width: 95%;
     margin: auto;
+    
+    
   
     
 }
 .formulario-adopcion p{
-    line-height:1.5;
+    line-height:1.4;
 
 }
+
 
 
 
 .encabezado-formulario{
     font-weight: bold;
     color: #cb6ce6;
-    font-size: 18px;
+    font-size: 16px;
+   
     
+}
+
+.formulariosAdopciones {
+   padding:10px;
 }
 
 
@@ -555,8 +563,7 @@ a{
     
 
     .formulario-adopcion{
-        width: 100%;
-       
+        width:95%;
         
     }
     .form-contacto{
@@ -763,25 +770,11 @@ a{
         bottom: 10px;
         
     }
-    .cotizacion-css{
-        
-      
-
-        
-    }
-
-    
-    
-   
-
-
-
     
     
 
     
     
-        
 }
 
 /* tablet */
@@ -1024,9 +1017,10 @@ a{
 
 
 .btnProductos{
-    width: 10%;
-    margin-top:20px;
-    margin-left: 10px;
+    width: 20%;
+   
+    margin: 5px;
+    margin-bottom: 20px;
     padding:10px 0;
     font-size: 16px;
     border: none;

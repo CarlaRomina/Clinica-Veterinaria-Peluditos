@@ -43,8 +43,8 @@
                 <br>
                 <h3>Formulario de adopción:</h3>
                 <br>
-                <form action="">
-                 <fieldset>
+                <form action=""class="formulario-adopcion" >
+                 <fieldset class="formulariosAdopciones">
                      <legend class="encabezado-formulario">Datos personales</legend>
          
                      <label for="nombre">Nombre: </label>
@@ -69,7 +69,7 @@
                  
                  <br>
                  
-                 <fieldset>
+                 <fieldset class="formulariosAdopciones">
                      <legend class="encabezado-formulario">Datos de la vivienda</legend>
                      <label for="direccion">Direccion: </label>
                      <input type="text"  placeholder="Escribí tu dirección completa..." required>
@@ -86,9 +86,11 @@
                          </select>
                      <br><br>
                      <label for="rb">¿Condición frente al inmueble?</label>
+                     <br>
                      <input type="radio" name="rb" value="1"> Propietario
                      <input type="radio" name="rb" value="2"> Inquilino
                      &nbsp &nbsp &nbsp
+                     <br>
                      <label for="rb">Si sos inquilino, ¿consultaste con el propietario si puede tener mascotas?</label>
                      <input type="radio" name="rb" value="1"> SI
                      <input type="radio" name="rb" value="2"> NO
@@ -101,20 +103,22 @@
                          <option value="3">No, pero me comprometo a colocarla.</option>
                          <option value="4">No, y no está en mis planes colocarla. </option>
                          </select>
-                     <br><br>
-                     <label for="rb">¿Vivis con otras personas?</label>
-                     <input type="radio" name="rb" value="1"> SI
-                     <input type="radio" name="rb" value="2"> NO
-                     <br>
-                     <label for="comentarios vivienda1">¿Con quién? ¿Podrías contarnos sus edades?</label>
-                     <textarea cols="60" rows="1" placeholder="Escriba su comentario"></textarea>
-                     <label for="comentarios vivienda2">¿Siempre hay alguien en la casa o el animal pasaría tiempo solo?</label>
-                     <textarea cols="60" rows="1" placeholder="Escriba su comentario"></textarea>
-                 </fieldset>
+                        <br><br>
+                        <label for="rb">¿Vivis con otras personas?</label>
+                        <input type="radio" name="rb" value="1"> SI
+                        <input type="radio" name="rb" value="2"> NO
+                        <br>
+                        <label for="comentarios vivienda1">¿Con quién?
+                        ¿Podrías contarnos sus edades?</label>
+                        <textarea cols="40" rows="1" placeholder="Escriba su comentario"></textarea>
+                        <br>
+                        <label for="comentarios vivienda2">¿Siempre hay alguien en la casa o el animal pasaría tiempo solo?</label>
+                        <textarea cols="40" rows="1" placeholder="Escriba su comentario"></textarea>
+                    </fieldset>
                  
                  <br>
                  
-                 <fieldset>
+                 <fieldset class="formulariosAdopciones">
                      <legend class="encabezado-formulario">Mascota</legend>
                     <label for="rb">¿Tuviste mascotas anteriormente?</label>
                     <input type="radio" name="rb" value="1"> SI
@@ -147,20 +151,21 @@
                  <br><br>
      
                  <label for="rb"> La pregunta más importante, ¿te comprometes a adoptar un animalito de por vida, con sus correspondientes atenciones y cuidados, a vacunarlo anualmente, desparacitarlo y castrarlo?</label>
+                 <br>
                  <input type="radio" name="rb" value="1"> SI
                  <input type="radio" name="rb" value="2"> NO
                  <br><br>
                  <label for="comentarios finales">¿Queres dejarnos algun otro comentario?</label><br>
                  <textarea cols="40" rows="5" placeholder="Escribí tu comentario..."></textarea>
                  <br><br>
-                 <input type="submit" value="Enviar datos" class="btnP">
-                 <input type="reset" value="Borrar datos">
+                 <input type="submit" value="Enviar" class="btnProductos">
+                 <input type="reset" value="Borrar" class="btnProductos">
          
                 
                  
             </form>
         </article>
-        <article></article>
+        
     </section>
 
     <footer class="pie-pag">
@@ -174,7 +179,7 @@
         </div>
         <div class="box">
             <h2>SOBRE NOSOTROS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Hasta que no hayas amado a un animal, una parte de tu alma permanecerá dormida</p>
         </div>
         <div class="box">
             <h2>SEGUINOS EN NUESTRAS REDES</h2>
